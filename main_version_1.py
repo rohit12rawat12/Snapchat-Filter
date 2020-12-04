@@ -8,7 +8,7 @@ nose_image = cv2.imread("image/pig img.png")
 pi = 22/7;
 
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
+predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat/shape_predictor_68_face_landmarks.dat")
 
 while True:
 	_, frame = cap.read()
